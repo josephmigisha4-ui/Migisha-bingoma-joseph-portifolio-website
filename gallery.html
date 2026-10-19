@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">DevPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="fw-bold">Media & Gallery</h1>
+            <p class="text-muted">Explore my self-motivation video and project highlights.</p>
+        </div>
+
+        <!-- Self-Motivation Video (Mandatory Requirement) -->
+        <section class="mb-5">
+            <h2 class="h4 fw-bold mb-3">Self-Motivation Video</h2>
+            <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
+                <!-- Replace src with your own local video file or embedded link -->
+                <video controls poster="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1000&q=80">
+                    <source src="assets/motivation.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <p class="text-center text-muted mt-2"><em>A brief overview of my motivation for pursuing a degree in Computer Science and my career aspirations.</em></p>
+        </section>
+
+        <!-- Photo Gallery Grid -->
+        <section>
+            <h2 class="h4 fw-bold mb-3">Project & Campus Gallery</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" class="gallery-img" alt="Coding Session">
+                        <div class="card-body">
+                            <h3 class="h6 fw-bold card-title">Web Design Workspace</h3>
+                            <p class="card-text small text-muted">Building responsive user interfaces using HTML5, CSS3, and Bootstrap components.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="WhatsApp Image 2026-10-19 at 09.01.03.jpeg" class="gallery-img" alt="Team Workshop">
+                        <div class="card-body">
+                            <h3 class="h6 fw-bold card-title">Group Project Collaboration</h3>
+                            <p class="card-text small text-muted">Collaborating with peers on version control workflows and GitHub Pages deployment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="WhatsApp Image 2026-10-19 at 09.03.55.jpeg" class="gallery-img" alt="Database Schema">
+                        <div class="card-body">
+                            <h3 class="h6 fw-bold card-title">Database System Design</h3>
+                            <p class="card-text small text-muted">Entity-relationship modeling and SQL schema planning for academic assignments.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
