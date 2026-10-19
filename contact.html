@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">DevPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container py-5">
+        <div class="text-center mb-5">
+            <h1 class="fw-bold">Get In Touch</h1>
+            <p class="text-muted">Feel free to reach out for collaborations, project inquiries, or academic questions.</p>
+        </div>
+
+        <div class="row g-5">
+            <!-- Contact Information -->
+            <div class="col-lg-5">
+                <div class="card p-4 shadow-sm h-100">
+                    <h2 class="h4 fw-bold text-primary mb-4">Contact Information</h2>
+                    <p class="mb-3"><strong>University Email:</strong>http://bugemauniv.ac.ug<a href="http://bugemauniv.ac.ug" class="text-decoration-none">http://bugemauniv.ac.ug</a></p>
+                    <p class="mb-3"><strong>Phone Number:</strong>256759238427 <a href="tel:+256759238427" class="text-decoration-none">Call Now</a></p>
+                    <p class="mb-3"><strong>Location:</strong> Department of Computer Science, luwero district</p>
+                    <p class="mb-4"><strong>Professional Links:</strong><br>
+                        <a href="https://github.com" target="_blank" class="text-decoration-none me-3">GitHub</a>
+                        <a href="https://linkedin.com" target="_blank" class="text-decoration-none">LinkedIn</a>
+                    </p>
+
+                    <!-- Optional Embedded Map -->
+                    <div class="mt-auto">
+                        <h3 class="h6 fw-bold mb-2">Location Map</h3>
+                        <div class="ratio ratio-4x3 rounded overflow-hidden shadow-sm">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.75f..." style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-lg-7">
+                <div class="card p-4 shadow-sm">
+                    <h2 class="h4 fw-bold text-primary mb-4">Send a Message</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailAddress" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Project Inquiry / Collaboration" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold">Submit Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
