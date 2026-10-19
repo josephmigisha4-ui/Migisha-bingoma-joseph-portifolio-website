@@ -1,0 +1,44 @@
+/* Custom Portfolio Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    color: #f80492;
+}
+
+/* Hero Section Gradient Background */
+.hero-section {
+    background: linear-gradient(135deg, #0d6efd 0%, #c0f306 100%);
+    color: rgb(245, 9, 9);
+    padding: 100px 0;
+}
+
+/* Navbar Customization */
+.navbar {
+    box-shadow: 0 2px 4px rgba(4, 236, 74, 0.1);
+}
+
+/* Card Hover Effects */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(124, 4, 236, 0.15);
+}
+
+/* Gallery Item Styling */
+.gallery-img {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #88c2fc;
+    color: #adb5bd;
+}
